@@ -1,0 +1,60 @@
+
+.carousaltitile {
+    color: white;
+    font-size: 2rem;
+    padding-top: 4px;
+  }
+
+  
+.homesection{
+    padding-bottom: 24rem;
+  }
+
+  .carousalsection_similar{
+    margin: 0 10rem 0 10rem;
+    .upper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+  
+      .switchtab {
+        height: 2rem;
+        width: 10rem;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        border-radius: 20px;
+        z-index: 0;
+  
+        .overlay {
+          height: 1.8rem;
+          width: 4.7rem;
+          border-radius: 20px;
+          background-image: var(--gradient);
+          position: absolute;
+          left: 1.5px;
+          z-index: -1;
+          animation-name: moveleft;
+          animation-fill-mode: forwards;
+          animation-duration: 0.5s;
+        }
+  
+        p {
+          padding: 0 1rem;
+        }
+      }
+    }
+  }
+
+  .react-multiple-carousel__arrow--right {
+    right: 10px;
+    top: 100px;
+  }
+  
+  .react-multiple-carousel__arrow--left {
+    left: 10px;
+    top: 100px;
+  }

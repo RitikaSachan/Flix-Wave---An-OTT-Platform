@@ -1,0 +1,122 @@
+.results {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem 10rem 5rem 10rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.upper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 42%;
+
+  .title {
+    margin-left: 2rem;
+  }
+}
+
+.filters {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+
+  select {
+    height: 2rem;
+    width: 15rem;
+    border-radius: 2rem;
+    background-image: var(--gradient);
+    outline: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.2rem;
+  }
+}
+
+.filters select option {
+  font-size: 14px;
+  background-color: #f89e00;
+  color: black;
+   text-align: center;
+  font-size: 1.2rem;
+}
+
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.eitem {
+  height: 300px;
+  width: 200px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eitemimage {
+  height: 220px;
+  width: 150px;
+  border-radius: 0.5rem;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+  }
+}
+
+.eitemcontent {
+  width: 100%;
+  color: rgb(190, 190, 190);
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+  white-space: nowrap;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  h6 {
+    padding-top: 0.3rem;
+  }
+}
+
+.eitem:hover {
+  transform: scale(1.05);
+}
+
+.clicked {
+  color: #7f7f7f;
+}
+
+.button {
+  height: 3rem;
+  width: 7rem;
+  border-radius: 2rem;
+  background-color: var(--pink);
+  color: white;
+  border: none;
+  margin: 2rem 2rem 0 0;
+  transition-duration: .4s;
+}
+
+.data {
+  h1 {
+    font-size: 5rem;
+    color: white;
+    margin: 5rem;
+  }
+}
+
+.button:hover{
+  transform: scale(1.07);
+  background-color: var(--orange);
+}

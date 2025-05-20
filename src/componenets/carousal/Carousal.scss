@@ -1,0 +1,42 @@
+.itemimage {
+  height: 200px;
+  width: 150px;
+  border-radius: 0.5rem;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+  }
+}
+
+
+.rating{
+    position: relative;
+    left: -4%;
+    top: -22%;
+}
+
+.react-multi-carousel-item {
+  height: 250px;
+  width: 150px;
+  transition-duration: .5s;
+  margin: 0 1.5rem 1.5rem 0;
+
+  .itemcontent {
+    color: rgb(190, 190, 190);
+    padding-top: 1.5rem;
+    padding-left: 0.4rem;
+    white-space: nowrap;
+    overflow: hidden;
+
+    h6 {
+      padding-top: 0.3rem;
+    }
+  }
+}
+
+.item:hover{
+    transform: scale(1.05);
+}

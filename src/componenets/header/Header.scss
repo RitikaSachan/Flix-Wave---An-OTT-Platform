@@ -1,0 +1,125 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.icon{
+    height: 21px;
+}
+
+
+.header-up{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(81, 81, 81, 0.254);
+    backdrop-filter: blur(5px);
+    transition-duration: 0.5s;
+}
+
+.dropmenu{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-color: #09111cdc;
+    animation-name: opensearch;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function : linear;
+    display: flex;
+    justify-content: center;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        :hover{
+            color: #da2f68;
+        }
+    }
+}
+
+.menuopened{
+    background-color: #09111cdc;
+    transition-duration: 0.7s;
+    border: none;
+}
+
+.dropsearch{
+    position: absolute;
+    height: 45px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    top: 0;
+    left: 0;
+    animation-name: opensearch;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function : linear;
+    justify-content: center;
+
+    input{
+        outline: none;
+        border: none;
+        font-size: 1.2rem;
+        width: 40rem;
+        color: grey;
+        text-align: center;
+    }
+}
+
+.dropsearch{
+    img{
+        position: absolute;
+        top: 27%;
+        right: 5%;
+    }
+}
+
+@keyframes opensearch {
+    from {top: 0}
+    to {top: 55px}
+}
+
+.hidden
+{
+    display: none;
+}
+
+.logo{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+
+    img{
+        height: 30px;
+    }
+}
+
+ul{
+    display: flex;
+    list-style: none;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    li{
+        padding: 1rem;
+    }
+}
+

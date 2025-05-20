@@ -1,0 +1,55 @@
+.topcast
+{
+    padding: 0 10rem;
+    margin-top: 2rem;
+
+    h1{
+        margin-bottom: 1rem;
+    }
+}
+
+.castitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.castimage{
+
+    height: 130px;
+    width: 130px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: .7rem;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.castname{
+    text-align: center;
+    text-wrap: nowrap;
+    .character_name{
+        font-size: .8rem;
+        margin-top: .3rem;
+        color: gray;
+    }
+}
+
+.topcast{
+    *{
+        color: white;
+    }
+
+    .react-multiple-carousel__arrow--right {
+        right: 2px;
+        top: 62px;
+      }
+      
+      .react-multiple-carousel__arrow--left {
+        left: 2px;
+        top: 62px;
+      }
+}

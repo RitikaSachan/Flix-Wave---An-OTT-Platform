@@ -1,0 +1,131 @@
+.details
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 0;
+    gap: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 3rem;
+   
+}
+
+.playbtn{
+    transition-duration: .5s;
+}
+
+.playbtn:hover{
+    transform: scale(1.06);
+}
+
+.rating-btn
+{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.status,.release,.runtime,.middle,.bottom,.top{
+    display: flex;
+}
+
+.middle,.bottom,.top{
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgba(125, 125, 125, 0.281);
+}
+
+
+.playbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    img{
+        height: 50px;
+    }
+}
+
+.backgroundimagedetails{
+    object-fit: cover;
+    overflow: hidden;
+    height: 500px;
+    width: 100vw;
+    opacity: 0.4;
+
+    img{
+        width: 100%;
+        height: 350%;
+    }
+}
+
+.detailsblend{
+    height: 500px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, transparent 0%, rgba(4, 21, 45, 1) 100%);
+
+}
+
+.imagesection{
+    height: 400px;
+    min-width: 250px;
+    max-width: 290px;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px black;
+}
+
+
+.detailsection{
+    h1,h4{
+        padding-bottom: 1rem;
+    }
+
+
+    h4{
+        margin-right: 6px;
+    }
+}
+
+h3{
+    display: inline-block;
+}
+
+.overview{
+    margin-top: 1rem;
+    p{
+        margin-top: .6rem;
+    }
+}
+
+.otherinfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.posterimage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.details{
+    color: white;
+    .circleRating{
+        height: 80px;
+        width: 80px;
+    }
+}
